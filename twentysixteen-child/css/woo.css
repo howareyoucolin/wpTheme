@@ -1,0 +1,143 @@
+#single-product img{
+	max-width:100%;
+	height:auto;
+}
+#single-product h1{
+	font-size:30px;
+	font-family: "Microsoft Yahei", sans-serif;
+}
+#single-product .price{
+	font-size:24px;
+	color:#44A33D;
+	margin-top:35px;
+	font-family: "Microsoft Yahei", sans-serif;
+}
+#single-product form.cart{
+	margin-top:35px;
+}
+#single-product  .thumbnails img{
+	width:40px;
+	height:40px;
+	margin-top:5px;
+	margin-right:3px;
+}
+#single-product .single_add_to_cart_button{
+	margin-top:15px;
+}
+#shoppingcart{
+	margin-top:35px;
+}
+.woocommerce #content table.cart img, .woocommerce table.cart img, .woocommerce-page #content table.cart img, .woocommerce-page table.cart img {
+    height: 70px;
+	width:70px;
+}
+#shoppingcart thead{
+	background:#44A33D;
+	color:#FFF;
+}
+#shoppingcart,#shoppingcart tbody{
+	border-radius:0;
+}
+#shoppingcart .cart-update-row{
+	background:#F7F6F7;
+	border-radius:0;
+}
+.wc-proceed-to-checkout a{
+	background:#FFA811 !important;
+	color:#FFF;
+	padding:25px !important;
+	font-size:18px !important;
+}
+.wc-proceed-to-checkout a:hover{
+	background:#EC971F !important;
+}
+.woocommerce-info {
+    border-top: 0;
+}
+#order_review thead th{
+	font-weight:normal;
+}
+form.checkout h3{
+	background:#44A33D;
+	color:#FFF;
+	padding: 9px 12px;
+	line-height:24px;
+	font-size:16px;
+}
+#my-account-nav{
+	background:#F5F5F5;
+	height:40px;
+	margin:0;
+	padding:0;
+	border-radius:4px;
+	margin-bottom:30px;
+}
+#my-account-nav li{
+	display:inline-block;
+	list-style:none;
+	padding:0 20px;
+	line-height:40px;
+}
+.woocommerce-MyAccount-content{
+	min-height:400px;
+}
+.woocommerce table.single_order_details{
+	margin-top:25px;
+}
+.woocommerce-EditAccountForm h2{
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	color:#FFF;
+	background:#44A33D;
+	padding-left:10px;
+}
+.woocommerce-EditAccountForm{
+	font-weight:normal;
+}
+.woocommerce-EditAccountForm label{
+	font-weight:normal;
+}
+.woocommerce-EditAccountForm input{
+	border:1px solid #DDD;
+	width:100%;
+	max-width:360px;
+	height:28px;
+	line-height:28px;
+}
+.woocommerce-EditAccountForm input[type="submit"]{
+	margin-top:25px;
+}
+form[name="checkout"] input{
+	border:1px solid #ddd;
+	height:28px;
+	line-height:28px;
+}
+form[name="checkout"] textarea{
+	border:1px solid #ddd;
+	height:98px !important;
+}
+.woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select {
+    border-color: #DDD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

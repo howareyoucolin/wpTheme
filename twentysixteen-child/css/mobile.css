@@ -1,0 +1,180 @@
+@media screen and (max-width: 768px) {
+
+	.mobile-only{display:block;}
+	.mobile-hide{display:none;}
+
+	#m-nav{
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:55px;
+		background:#3D9337;
+		border-bottom:7px solid #EEE;
+		z-index:99999;
+	}
+	
+	#m-nav nav{
+		background:#3D9337;
+	}
+	
+	.navbar-header{
+		float:left;
+	}
+	
+	.navbar-header img{
+		margin:0;
+		padding:15px 0 15px 7px;
+		height:55px;
+	}
+	
+	#m-nav nav ul{
+		margin:0;
+		padding:0;
+		float:right;
+	}
+	
+	#m-nav nav ul li{
+		display:inline-block;
+		list-style:none;
+		width:55px;
+		height:55px;
+		color:#FFF;
+		text-align:center;
+	}
+	
+	#m-nav nav ul li .icon{
+		font-size:16px;
+		display:block;
+		margin-top:10px;
+	}
+	
+	#m-nav nav ul li .icon img{
+		width:25px;
+		height:25px;
+	}
+	
+	#m-nav nav ul li .explain{
+		font-size:11px;
+		color:#EEE;
+		display:block;
+	}
+	
+	#m-nav nav ul li a{
+		color:#FFF;
+		text-decoration:none;
+	}
+	
+	#m-nav nav ul li .dropdown-menu{
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	
+	#m-nav nav ul li .dropdown-menu li{
+		width:100%;
+		height:30px;
+		line-height:30px;
+		text-align:left;
+	}
+	
+	#m-nav nav ul li .dropdown-menu a{
+		color:#555 ;
+	}
+	
+	#m-nav-dummy{
+		height:67px;
+		width:100%;
+	}
+	
+	#main {
+		margin-bottom: 25px;
+	}
+	
+	#main .item {
+		height:auto;
+		padding-bottom:20px;
+		margin-bottom:20px;
+		border-bottom:1px dashed #DDD;
+	}
+	
+	#main .item >a>img{
+		width:48%;
+		float:left;
+	}
+	
+	#main .item >p, #main .item >form{
+		width:48%;
+		float:right;
+		margin-bottom:0;
+	}
+	
+	#main .item .item-pop {
+		display: none !important;
+	}
+	
+	#main .item .title {
+		margin-top: 0;
+	}
+
+	.divide-line{
+		clear:both;
+	}
+	
+	button.minus ,button.plus{
+		width: 38%;
+		height:42px;
+	}
+	input.qty{
+		width: 16%;
+		height:40px;
+		border:1px solid #EEE;
+		text-align:center;
+		background:#FAFAFA;
+	}
+	
+	#main .item  .single_add_to_cart_button {
+		width:100px;
+		height:25px;
+		margin-top:15px;
+		line-height:25px;
+		padding:0;
+	}
+	
+	#main .item  .view-details{
+		position:absolute;
+		width:40px;
+		height:40px;
+		line-height:40px;
+		top:0;
+		left:15px;
+		background:rgba(0,0,0,0.5);
+		font-size: 16px;
+		text-align:center;
+		color:#FFF;
+	}
+	
+	.twentysixteen .site-main{
+		margin:0;
+	}
+	
+	#single-product .single_add_to_cart_button{
+		margin-top:30px;
+		width:93%;
+		margin-bottom:15px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
